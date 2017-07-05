@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+          http://www.springframework.org/schema/beans/spring-beans.xsd
+          http://www.springframework.org/schema/mvc
+          http://www.springframework.org/schema/mvc/spring-mvc.xsd
+          http://www.springframework.org/schema/tx
+          http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+          http://www.springframework.org/schema/context
+          http://www.springframework.org/schema/context/spring-context.xsd
+          http://www.springframework.org/schema/aop  
+          http://www.springframework.org/schema/aop/spring-aop-3.2.xsd">
+
+    <!-- 
+UserIO io = new UserIOImpl();
+    FMDao dao = new FMDaoImpl();
+    FMView view = new FMViewImpl(io);
+    ConfigDao config = new ConfigDaoImpl();
+    FMServiceLayer service = new FMServiceLayerImpl(dao, config);
+    FMController controller = new FMController(view, service);
+    -->
+    
+    <bean id="testDao" class="FMDao.FMDaoImpl">
+        <constructor-arg value="testOrders"/>
+        <constructor-arg value="testBrokenOrders.txt"/>
+    </bean>
+    
+    <bean id="dao" class="FMDao.FMDaoImpl">
+        <constructor-arg value="orders"/>
+        <constructor-arg value="brokenOrders.txt"/>
+    </bean>
+    
+    <bean id="io" class="FMUI.UserIOImpl"/>
+    <bean id="view" class="FMUI.FMViewImpl">
+        <constructor-arg ref="io"/>
+    </bean>
+    <bean id="config" class="FMDao.ConfigDaoImpl"/>
+    <bean id="service" class="FMServiceLayer.FMServiceLayerImpl">
+        <constructor-arg ref="dao"/>
+        <constructor-arg ref="config"/>
+    </bean>
+    <bean id="controller" class="FMController.FMController">
+        <constructor-arg ref="view"/>
+        <constructor-arg ref="service"/>
+    </bean>
+    
+    <bean id="auditDao" class="FMAuditDao.FMAuditDaoImpl"/>
+    <bean id="logger" class="LoggingAdvice.LoggingAdviceClass">
+        <constructor-arg ref="auditDao"/> 
+    </bean>
+    
+    
+    <aop:config>
+        <aop:aspect ref="logger">
+            <aop:after-returning   method="auditError"
+                                    pointcut="execution(* FMDao.FMDaoImpl.logThisFile(..))"
+                                    returning="returnValue"
+            />
+        </aop:aspect>
+    </aop:config>
+   
+        
+</beans>

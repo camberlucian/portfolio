@@ -1,0 +1,16 @@
+1720,"Melcha, Goddess of Thieves",Shainan's Hold,19.80,Trolls' Mist Poisonplatinum Of The Twilight,306.00,516.17,394.90,157948.02,120839.40,55757.48,334544.90
+4292,"Iran, Lord of Nightmares",The Pilgrim's Cup,41.93,Sphinxes' Mistsoul Bronze Of The Past,374.00,1793.23,183.70,670668.02,68703.80,310536.16,1049907.98
+4494,"Baltha, Goddess of Knowledge",Fellfen Keep,42.03,Succubi's Evil Mindzephyr Adamant Of The Desert,175.00,1990.16,250.07,348278.00,43762.25,164656.90,556697.15
+7010,"Lenwenye, Goddess of Travel",The Forsaken Delve of Lord Greywulf,39.00,Spectres' Shadowy Terrorglow Adamant Of Life,211.00,4694.80,205.50,990602.80,43360.50,403245.69,1437208.99
+7502,"Selik, God of Death",The Dancing Minstrel,21.20,Phantasmal Tin Of The Swamps,243.00,4074.00,-6.60,989982.00,-1603.80,207559.42,1195937.62
+8896,"Lenwenye, Goddess of Travel",Unicorn's Ward,14.64,Djinni's Evil Sandobsidian Steel Of The Future,339.00,3826.00,157.07,1297014.00,53246.73,202539.11,1552799.84
+20940,"Melcha, Goddess of Thieves",Waleah Castle,0.85,Sapphire Mindlead,243.00,1307.71,51.70,317773.53,12563.10,3303.37,333640.00
+1445,"Alik, Goddess of Trickery",Archtemple District,27.76,Ensorceled Sandmetal Of Spirits,184.00,2956.98,87.00,544084.32,16008.00,156825.85,716918.17
+2379,"Eumyan, Goddess of Law",The Khazahol Crags,-1.97,Heavenly Dreamsilver Of The Night,169.00,1826.98,112.00,308759.62,18928.00,-6553.75,321133.87
+11144,"Ahah, Goddess of Knowledge",Shainan's Hold,23.96,Primordial False Gold,105.00,5395.80,226.00,566559.00,23730.00,141669.36,731958.36
+2703,"Byzou, God of Animals",Pawic Keep,0.56,Rocklava Mithril Of Revenants,132.00,1818.30,13.03,240015.60,1719.96,2417.36,244152.92
+7389,"Uriel, God of Fate",Palace Farthing,43.31,Golems' Stonesapphire Gold Of The Glacier,131.00,3672.77,105.97,481132.87,13882.07,212856.42,707871.36
+9636,"Gono, Goddess of the Earth",Lamp Borough,4.95,Ghostly Magic Adamant,112.00,4836.38,230.90,541674.56,25860.80,28376.77,595912.13
+12744,"Gadriel, God of Resurrection",Lordsgate Farthing,45.25,Phantasmal Smokezephyr Mercury Of Men,350.00,-464.37,75.90,-162529.50,26565.00,-61184.02,-197148.52
+13904,"Maglioneth, Lord of the Sun",The Bastion of Gothmog of Udun,54.84,Witchs' Forbidden Rockrainbow Bronze,138.00,655.60,387.20,90472.80,53433.60,79148.52,223054.92
+15111,"Ingwenel, God of War",The Cuitamba Jungle,30.80,Mithril Of The Tropics,262.00,4126.10,11.98,1081038.20,3138.76,336094.86,1420271.82
